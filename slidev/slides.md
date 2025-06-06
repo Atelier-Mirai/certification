@@ -267,8 +267,8 @@ transition: fade-out
 <div class="text-sm">
 
 ##### 1. 資格情報の作成
-- **基本情報処理技術者** の資格情報を作成
-- **応用情報処理技術者** の資格情報を作成
+- **基本情報技術者** の資格情報を作成
+- **応用情報技術者** の資格情報を作成
 <br>
 <br>
 
@@ -276,13 +276,13 @@ transition: fade-out
 <ul style="list-style: none; padding: 0; margin: 0;">
   <li style="margin: 0; padding: 0; line-height: 1.25;"><strong>日立太郎</strong> さんを作成</li>
   <li style="margin: 0; padding-left: 1rem; line-height: 1.25; list-style: none;">名前: 日立太郎</li>
-  <li style="margin: 0; padding-left: 1rem; line-height: 1.25; list-style: none;">関連付ける資格: 基本情報処理技術者</li>
+  <li style="margin: 0; padding-left: 1rem; line-height: 1.25; list-style: none;">関連付ける資格: 基本情報技術者</li>
 </ul>
 <br>
 <ul style="list-style: none; padding: 0; margin: 0;">
   <li style="margin: 0; padding: 0; line-height: 1.25;"><strong>日立花子</strong> さんを作成</li>
   <li style="margin: 0; padding-left: 1rem; line-height: 1.25; list-style: none;">名前: 日立花子</li>
-  <li style="margin: 0; padding-left: 1rem; line-height: 1.25; list-style: none;">関連付ける資格: 応用情報処理技術者</li>
+  <li style="margin: 0; padding-left: 1rem; line-height: 1.25; list-style: none;">関連付ける資格: 応用情報技術者</li>
 </ul>
 <br>
 
@@ -310,13 +310,13 @@ transition: fade-out
 // PersonクラスとCertificationクラスの動作を確認するデモクラス
 public class PersonDemo {
   public static void main(String[] args) {
-    // 基本情報処理技術者の資格情報を作成
-    Certification fe = new Certification("基本情報処理技術者", 2019, 6);
+    // 基本情報技術者の資格情報を作成
+    Certification fe = new Certification("基本情報技術者", 2019, 6);
     // 太郎さん（基本情報保持）を作成
     Person taro      = new Person("日立太郎", fe);
 
-    // 応用情報処理技術者の資格情報を作成
-    Certification ap = new Certification("応用情報処理技術者", 2020, 6);
+    // 応用情報技術者の資格情報を作成
+    Certification ap = new Certification("応用情報技術者", 2020, 6);
     // 花子さん（応用情報保持）を作成
     Person hanako    = new Person("日立花子", ap);
 
@@ -406,9 +406,9 @@ transition: fade-out
 
 ```bash
 日立太郎
-基本情報処理技術者:2019/6
+基本情報技術者:2019/6
 日立花子
-応用情報処理技術者:2020/6
+応用情報技術者:2020/6
 ```
 
 </div>
